@@ -1,0 +1,105 @@
+
+
+#drakes-img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 6px solid #111E0B;
+}
+
+h1, h2, h4 p {
+    text-shadow: 0px 0px 1px black;
+}
+
+body {
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(#46B83D,#111E0B);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#send-gift {
+    margin-top: 20px;
+    background-color: royalblue;
+}
+
+#bday-age {
+    background: #111E0B;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #111E0B;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+.gift-hint{
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/present.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url(https://gifdb.com/images/high/willem-dafoe-smile-5fspwmns54w49yoj.gif)
+}
+
+#gift-img-party:hover {
+    background-image: url(https://gifdb.com/images/high/crazy-party-dance-0pijtnjklciatb4h.gif)
+}
+
+#gift-img-money:hover {
+    background-image: url(https://gifdb.com/images/high/counting-money-rain-michael-torpey-gg9u6ziry77m7eq8.gif);
+}
+
+#gift-img-baller:hover {
+    background-image: url(https://gifdb.com/images/high/salute-jim-carrey-lolcb6howdxymmnx.gif);
+}
+
+#gift-img-salud {
+    height: 500px;
+    width: 500px;
+}
+
+#gift-img-salud:hover {
+    background-image: url(https://gifdb.com/images/high/leonardo-dicaprio-cheers-zlajt4eocxz2uiyh.gif);
+}
+
+#footer {
+    font-style: italic;
+    width:400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color:white;
+}
